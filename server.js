@@ -69,15 +69,15 @@ NodeWebcam.capture( "test_picture", opts, function( err, data ) {
 const transport = nodemailer . createTransport ( {
     service : 'Gmail' , 
     auth : { 
-        user : 'astrid1404hg@gmail.com' , 
-        pass : '_jorgeteamo_14' , 
+        user : '' , 
+        pass : '' , 
     } 
 } ) ;
 const mailOptions = { 
-    from: 'astrid1404hg@gmail.com' , 
-    to: 'mauricio.vascos@gmail.com' , 
-    subject: '¡te adoro!' , 
-    html: '¡sos mi todo !' , 
+    from: '' , 
+    to: '' , 
+    subject: '¡!' , 
+    html: '¡ !' , 
 	attachments: [{
 		filename: 'test_picture.jpg',
 		path: 'test_picture.jpg'
